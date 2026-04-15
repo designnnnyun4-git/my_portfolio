@@ -23,6 +23,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&family=Shippori+Mincho&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 <script src="JS/common.js" defer></script>
 <script src="JS/works_children.js" defer></script>
 </head>
@@ -127,6 +128,7 @@
         <div class="figma-gallery">
         <div class="gallery-section">
             <h3 class="text slide">PC Version - Wireframe</h3>
+            <a href="image/works/合同会社CLOSM/wf_pc.png" class="glightbox">
             <div class="map-viewer">
                 <img src="image/works/合同会社CLOSM/wf_pc.png" class="draggable-img" alt="PCのWF画像">
                 <div class="zoom-controls">
@@ -134,7 +136,9 @@
                     <button class="zoom-out">－</button>
                 </div>
             </div>
+            </a>
             <h3 class="text slide">PC Version - Design</h3>
+            <a href="image/works/合同会社CLOSM/design_pc.png" class="glightbox">
             <div class="map-viewer">
                 <img src="image/works/合同会社CLOSM/design_pc.png" class="draggable-img" alt="PCのデザイン画像">
                 <div class="zoom-controls">
@@ -142,7 +146,9 @@
                     <button class="zoom-out">－</button>
                 </div>
             </div>
+            </a>
             <h3 class="text slide">Mobile Version - Wireframe</h3>
+            <a href="image/works/合同会社CLOSM/wf_device.png" class="glightbox">
             <div class="map-viewer">
                 <img src="image/works/合同会社CLOSM/wf_device.png" class="draggable-img" alt="スマートフォンのWF画像">
                 <div class="zoom-controls">
@@ -150,14 +156,17 @@
                     <button class="zoom-out">－</button>
                 </div>
             </div>
+            </a>
             <h3 class="text slide">Mobile Version - Design</h3>
+            <a href="image/works/合同会社CLOSM/design_device.png" class="glightbox">
             <div class="map-viewer">
-                <img src="image/works/合同会社CLOSM/design_pc.png" class="draggable-img" alt="スマートフォンのデザイン画像">
+                <img src="image/works/合同会社CLOSM/design_device.png" class="draggable-img" alt="スマートフォンのデザイン画像">
                 <div class="zoom-controls">
                     <button class="zoom-in">＋</button>
                     <button class="zoom-out">－</button>
                 </div>
             </div>
+            </a>
         </div>
         <div class="url2">
             <a href="works.html" class="text">All Works</a>
@@ -185,5 +194,11 @@
     </div>
 </footer>
 <div class="custom-cursor"></div>
+<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+    const lightbox = GLightbox({
+        zoomable: true 
+    });
+</script>
 </body>
 </html>
